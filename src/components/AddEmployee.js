@@ -81,45 +81,45 @@ const AddEmployee = () =>{
     )
 
     return(
-        <div className = "container">
+        <div className = "container ">
             <h3>Add Employees</h3>
-            <form>
-                <div className="mb-3" >
-                    <label for="name" class="form-label">Name</label>
-                    <input 
-                    type="text" 
-                    className="form-control" 
-                    id="name" 
-                    placeholder="Input Employee Name" 
-                    onChange ={
-                        (e) => setName(e.target.value) 
-                    }
-                    />
-                </div>
-                <div className="mb-3" >
-                    <label for="location" class="form-label">Location</label>
-                    <input 
-                    type="text" 
-                    className="form-control" 
-                    id="location" 
-                    placeholder="Input Employee Location"
-                    onChange ={
-                        (e) => setLocation(e.target.value) 
-                    }/>
-                </div>
-                <div className="mb-3">
-                    <label for="department" class="form-label">Department</label>
-                    <input 
-                    type="text" 
-                    class="form-control" 
-                    id="department" 
-                    placeholder="Input Employee Department"
-                    onChange ={
-                        (e) => setDepartment(e.target.value) 
-                    }/>
-                </div>
-                <button type="submit" className="btn btn-primary" onClick={(e) => saveEmployee(e)}>Save</button>
-            </form>
+                    <form>
+                        <div className="mb-3" >
+                            <label for="name" className="form-label">Name</label>
+                            <input 
+                            type="text" 
+                            className="form-control" 
+                            id="name" 
+                            placeholder="Input Employee Name" 
+                            onChange ={
+                                (e) => setName(e.target.value) 
+                            }
+                            />
+                        </div>
+                        <div className="mb-3" >
+                            <label for="location" class="form-label">Location</label>
+                            <input 
+                            type="text" 
+                            className="form-control" 
+                            id="location" 
+                            placeholder="Input Employee Location"
+                            onChange ={
+                                (e) => setLocation(e.target.value) 
+                            }/>
+                        </div>
+                        <div className="mb-3">
+                            <label for="department" class="form-label">Department</label>
+                            <input 
+                            type="text" 
+                            class="form-control" 
+                            id="department" 
+                            placeholder="Input Employee Department"
+                            onChange ={
+                                (e) => setDepartment(e.target.value) 
+                            }/>
+                        </div>
+                        <button type="submit" className="btn btn-primary" onClick={(e) => saveEmployee(e)}>Save</button>
+                    </form>
         </div>
     )
 }

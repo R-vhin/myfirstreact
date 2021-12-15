@@ -44,9 +44,9 @@ const Employee = () => {
         <div className = "container">
             <h3>List of Employees</h3>
             <div>
-                <table className= "table table-hover table-danger">
+                <table className= "table table-hover table-success">
                     <thead>
-                    <tr className = "table-info">
+                    <tr className = "table-info table-dark">
                         <td>Name</td>
                         <td>Department</td>
                         <td>Location</td>
